@@ -1,0 +1,123 @@
+body{
+    background-color: #e4c143;
+    background-position: 0%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.heading
+{
+text-align: center;
+}
+
+.heading2{
+    text-align: center;
+}
+
+.image{ 
+	max-height:300px;
+	height: auto;
+    width: auto;
+    max-width: 900px;
+    align-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    border: 5px solid #080808
+    
+}
+
+.table-row {
+    border: 3px solid #333;
+    font-size: 1.25em;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.table-row2 {
+    width: 25%;
+}
+
+.mytable{
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.inputtext{
+    background-color:#e4c143;
+}
+
+.submitbtn{
+    background-color: rgb(26, 167, 10);
+    border-radius: 1px;
+}
+
+.section1
+	{
+		width: 300px;
+		display: inline-block;
+		border-color : black;
+		border-style: solid;
+		border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        margin: 6px;
+	}
+
+.projectimg{
+        width:100px;
+        height: 100px%;
+        margin-left: 10px;	
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+}
+
+.section2
+{
+    width: 99%;
+    display: inline-block;
+    border-color : black;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 6px;
+}
+
+.heading3{
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+	.image
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.nonreq
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+    .link-success
+    {
+        display: none;
+    }
+    .hideb
+    {
+        display: none;
+    }
+    
+}
